@@ -13,7 +13,7 @@ The parallel implementation employs **OpenMP** with different numbers of threads
 - **`01knapsackParallelCritical.cpp`**: Contains the parallel implementation using OpenMP with varying numbers of threads.
 - **`01knapsackParallelReduction.cpp`**: Contains the parallel implementation using OpenMP with varying numbers of threads.
 - **`Execution Time Screenshots`**: Includes screenshots of the output for both implementations.
-- **`Flowchart of sequential Knapsack code1.png & Flowchart of sequential Knapsack code2.png:`** Presents a flowcchart of our sequential Knapsack code.
+- **`Flowchart of sequential Knapsack code1.png & Flowchart of sequential Knapsack code2.png:`** Presents a flowchart of our sequential Knapsack code.
 - **`knapsack_items_large.csv`**: A dataset includes 100,000 items each with its price and weight.   
 - **`Performance Analysis.png`**: Includes comparisons of execution time for sequential vs. different parallel implementations that was done on Intel@i7-1065G7 CPU which is a quad core 201 machine.
 
