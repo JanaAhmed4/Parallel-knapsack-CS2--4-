@@ -32,7 +32,7 @@ void knapSack(int W, vector<int>& wt, vector<int>& val, int n) {
     // Build table K[][] in bottom-up manner
     
     for (int i = 0; i <= n; i++) {
-        #pragma omp parallel for num_threads(1) 
+        #pragma omp parallel for num_threads(8) 
         for (int w = 0; w <= W; w++) {
             
             if (i == 0 || w == 0) {
