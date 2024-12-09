@@ -15,7 +15,7 @@ The parallel implementation employs **OpenMP** with different numbers of threads
 - **`Execution Time Screenshots`**: Includes screenshots of the output for both implementations.
 - **`Flowchart of sequential Knapsack code1.png & Flowchart of sequential Knapsack code2.png:`** Presents a flowchart of our sequential Knapsack code.
 - **`knapsack_items_large.csv`**: A dataset includes 100,000 items each with its price and weight.   
-- **`Performance Analysis.png`**: Includes comparisons of execution time for sequential vs. different parallel implementations that was done on Intel@i7-1065G7 CPU which is a quad core 201 machine.
+- **`Performance Analysis.png`**: Includes an analysis of execution time for different parallel implementations that was done on Intel@i7-1065G7 CPU which is a quad core 201 machine.
 
 
 
@@ -29,6 +29,7 @@ The parallel implementation employs **OpenMP** with different numbers of threads
 2. **Parallel Implementation**:
    - Utilizes OpenMP to parallelize the nested loop in the dynamic programming approach.
    - Supports different numbers of threads (e.g., 1, 2, 4, 6, and 8) to analyze performance scaling.
+   - Explored and compared different synchronization methods, including critical, atomic, and reduction, to ensure the correctness of the shared variables. 
 
 3. **Performance Analysis**:
    - Includes comparisons of execution time for sequential vs. parallel implementations that was done on Intel@i7-1065G7 CPU which is a quad core 201
