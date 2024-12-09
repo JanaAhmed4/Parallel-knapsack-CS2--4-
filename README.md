@@ -34,6 +34,6 @@ machine.
    - Demonstrates speedup with increasing threads.
   
 ## Additional efforts 
-We have created a YouTube video that dives into the benefits of parallelism and its applications, explained in an engaging and straightforward way.
+We have created a YouTube video that dives into the benefits of parallelism and its applications in the knapsack problem, explained in an engaging and straightforward way.
 
 Watch the video here: [Parallelized 0/1 Knapsack Problem - Video](https://youtu.be/WFLeM5VRa8c?si=Ul-e55p2FkE96ZKe)
