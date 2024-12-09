@@ -22,6 +22,7 @@ The parallel implementation employs **OpenMP** with different numbers of threads
    - Supports different numbers of threads (e.g., 1, 2, 4, 6, and 8) to analyze performance scaling.
 
 3. **Performance Analysis**:
-   - Includes comparisons of execution time for sequential vs. parallel implementations.
-   - Demonstrates speedup and efficiency with increasing threads.
+   - Includes comparisons of execution time for sequential vs. parallel implementations that was done on Intel@i7-1065G7 CPU which is a quad core 201
+machine.
+   - Demonstrates speedup with increasing threads.
 
