@@ -39,4 +39,4 @@ machine.
 ## Additional efforts 
 We have created a YouTube video that dives into the benefits of parallelism and its applications in the knapsack problem, explained in an engaging and straightforward way.
 
-Watch the video here: [Parallelized 0/1 Knapsack Problem - Video](https://youtu.be/3zOHFSXcGu4?si=zkDv9r_dDiex9Z8I)
+Watch the video here: [Fundamental Algorithms with Parallel Computing: Solving The 0/1 Knapsack Problem](https://youtu.be/3zOHFSXcGu4?si=zkDv9r_dDiex9Z8I)
