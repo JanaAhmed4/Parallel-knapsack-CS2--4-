@@ -32,7 +32,7 @@ The parallel implementation employs **OpenMP** with different numbers of threads
    - Explored and compared different synchronization methods, including critical, atomic, and reduction, to ensure the correctness of the shared variables. 
 
 3. **Performance Analysis**:
-   - Includes comparisons of execution time for sequential vs. parallel implementations that was done on Intel@i7-1065G7 CPU which is a quad core 201
+   - Includes comparisons of execution time for different parallel implementations that was done on Intel@i7-1065G7 CPU which is a quad core 201
 machine.
    - Demonstrates speedup with increasing threads.
   
